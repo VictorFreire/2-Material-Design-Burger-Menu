@@ -22,11 +22,36 @@ a:focus {
     font-weight: 700;
     transition: .2s linear;
 }
+aside {
+    position: absolute;
+    color: #B71C1C;
+    top: 50%;
+    right: 10%;
+    bottom: 0;
+    text-align: right;
+}
+h1 {
+    font-size: 4vw;
+    font-weight: 700;
+}
+h3 {
+    float: right;
+    line-height: .3;
+    font-size: 2.5vw;
+    font-weight: lighter;
+}
+h4 {
+    float: left;
+    margin-left: -2%;
+    font-size: 1.5vw;
+    font-weight: lighter;
+}
 
 html, body {
     margin: 0;
     padding: 0;
     background-color: #F44336;
+    font-family: 'Roboto', sans-serif;
 }
 
 #menu, label:before, label:after {
