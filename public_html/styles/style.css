@@ -25,12 +25,12 @@ a:focus {
 aside {
     position: absolute;
     color: #B71C1C;
-    top: 50%;
+    top: 35%;
     right: 10%;
-    bottom: 0;
     text-align: right;
 }
 h1 {
+    line-height: 0;
     font-size: 4vw;
     font-weight: 700;
 }
